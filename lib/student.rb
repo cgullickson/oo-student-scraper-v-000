@@ -5,6 +5,10 @@ class Student
   @@all = []
 
   def initialize(student_hash)
+    @name = name[name]
+    @location = location[location]
+    @profile_url = student_hash[:profile_url]
+    
 
     @@all << self
   end
